@@ -1,4 +1,3 @@
-# Estimator_eventBasedDTsync
 # Event-Triggered Synchronisation for Cellular Digital Twins
 
 **When is it worth running a model on the digital twin, and when is it better to
