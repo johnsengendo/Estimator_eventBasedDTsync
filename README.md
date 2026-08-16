@@ -94,8 +94,7 @@ data/      the numerical values behind each figure (CSV) + short notes
 docs/      extended explanation of the estimators and the tuning procedure
 ```
 
-The implementation is not included here yet. The Milan dataset is not
-redistributed — it is public at the link above.
+The implementation is not included here yet. The Milan dataset is public at the link above.
 
 ## License
 
