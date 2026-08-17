@@ -1,6 +1,4 @@
-# =============================================================================
-#  Requirements for the digital-twin synchronisation pipeline
-#
+
 #  Install:
 #      pip install -r requirements.txt
 #
@@ -20,19 +18,17 @@ numpy>=1.21
 pandas>=1.5
 
 # --- figures --------------------------------------------------------------
-# All plotting. The pipeline forces the non-interactive "Agg" backend, so no
-# display or GUI toolkit is required -- it runs headless on a server.
+# All plotting. 
 matplotlib>=3.5
 
 # --- hyper-parameter search ----------------------------------------------
-# Used only by stage2b_tune_real.py, for the TPE sampler that tunes the
+# Used only  for the TPE sampler that tunes the
 # estimator parameters. If you skip the tuning stage and use the parameters
 # already in tuned_params_real.csv, this one is not needed.
 optuna>=3.0
 
 # =============================================================================
-#  Versions this pipeline was last run against, if you need to reproduce the
-#  environment exactly:
+#  Versions needed
 #
 #      python    3.12.3
 #      numpy     2.4.4
@@ -40,6 +36,4 @@ optuna>=3.0
 #      matplotlib 3.10.8
 #      optuna    4.9.0
 #
-#  The bounds above are deliberately loose; nothing in the code depends on
-#  behaviour introduced in those specific releases.
 # =============================================================================
