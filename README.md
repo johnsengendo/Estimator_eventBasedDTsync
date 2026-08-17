@@ -59,11 +59,7 @@ by the network operator, not chosen by the twin.
 
 ![Mean divergence by policy and estimator, cell 574](bar_error_by_policy_high_cell574.png)
 
-Mean divergence on a highly structured cell, at a 10% communication budget:
-every estimator improves as the trigger improves (Hold drops 28% from Periodic
-to Lyapunov), and under any given trigger the cycle-aware GapAdapt is the most
-accurate — 18% below Hold under Lyapunov — while Linear, which extrapolates a
-slope, is worst throughout.
+Mean divergence on a highly structured cell, at a 10% communication budget. Under every trigger the cycle-aware estimators are the most accurate, while extrapolating a slope is the worst choice throughout.
 ---
 
 
