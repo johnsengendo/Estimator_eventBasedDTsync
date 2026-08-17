@@ -1,4 +1,4 @@
-# Event-Triggered Synchronisation for Cellular Digital Twins
+# Event-Triggered Synchronization for Cellular Digital Twins
 
 **When is it worth running a model on the digital twin, and when is it better to
 just hold the last value?**
@@ -23,11 +23,11 @@ Time is slotted, one slot every 10 minutes.
 
 - **Physical twin** — the true traffic e.g load of a cell, `x_k`.
 - **Digital twin** — a mirror `x̂_k` held remotely.
-- **Synchronisation** — each slot the policy emits `s_k ∈ {0,1}`. If `s_k = 1`
+- **Synchronization** — each slot the policy emits `s_k ∈ {0,1}`. If `s_k = 1`
   the true sample is transmitted and the estimator is corrected with it;
   otherwise nothing is sent and the twin displays the estimator's prediction.
 - **Divergence** — `e_k = |x_k − x̂_k|`, evaluated at *every* slot, including
-  those with no transmission. This is what a synchronisation scheme has
+  those with no transmission. This is what a synchronization scheme has
   to control.
 - **Overhead** — `s̄ = (1/K) Σ_k s_k`, the fraction of slots transmitted.
 
