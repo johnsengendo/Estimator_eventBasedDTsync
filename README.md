@@ -64,7 +64,7 @@ Mean divergence on a highly structured cell, at a 10% communication budget. Unde
 
 
 Evaluation uses one week of the
-[Telecom Italia Milan](https://doi.org/10.7910/DVN/EGZHFV) open dataset.
+[Telecom Italia Milan](https://ieee-dataport.org/documents/telecom-italia-and-opnet-datasets-network-traffic-prediction) open dataset.
 
 Requirements are in [`requirements.txt`](requirements.txt).
 
