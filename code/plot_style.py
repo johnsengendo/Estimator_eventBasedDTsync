@@ -7,8 +7,6 @@ Shared figure style: palettes, boxed axes, side legends, 300 dpi.
 EC / PC       estimator and policy palettes
 boxed(ax)     four spines, inward ticks, dotted grid behind the data
 side_legend() boxed legend outside the axes, on the right
-
-Changing a colour here changes it everywhere.
 """
 
 from __future__ import annotations
@@ -26,14 +24,14 @@ EC = {
     "GapAdapt":  "#f0b323",
 }
 
-# Policies: the same family, so the two figure types sit together on a page.
+# Policies: the same family.
 PC = {
     "Periodic": "#4a7fb5",
     "Adaptive": "#1f3d7a",
     "Lyapunov": "#c8442a",
 }
 
-# aliases, so existing scripts keep working after a one-line import change
+# aliases, so existing scripts keep working
 COLORS = EC
 PCOLORS = PC
 
